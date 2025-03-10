@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <img src="TRANSLATOR__1_-removebg-preview.png" alt="travello logo" class="logo">
+    <div class="login-box">
+        <h2>WELCOME</h2>
+        <label for="User_name">User_name</label>
+        <input type="text" id="Username" placeholder="Enter the username">
+        
+        <label for="Password">Password</label>
+        <input type="password" id="password" placeholder="Enter the password">
+        
+        <button id="loginBtn">LOGIN</button>
+        
+        <a href="#">Create Account</a>
+        <a href="#">Forget Password?</a>
+    </div>
+
+    <script>
+        document.getElementById("loginBtn").addEventListener("click", function() {
+            let username = document.getElementById("Username").value;
+            let password = document.getElementById("password").value;
+
+            if (username && password) {
+               
+                window.location.href = "mainpage.html";
+            } else {
+                alert("Please enter both username and password.");
+            }
+        });
+    </script>
+</body>
+</html>

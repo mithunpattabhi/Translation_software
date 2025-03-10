@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+.header {
+    background-color: #777879;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+.header .logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+.header input {
+    flex: 1;
+    margin: 0 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.header .profile {
+    display: flex;
+    align-items: center;
+}
+.header .profile img {
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.translation-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.translation-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.translation-box textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+.translation-box select {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.translation-box h2 {
+    margin-bottom: 10px;
+}
+.phrases {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.phrases h3 {
+    margin-bottom: 10px;
+}
+
+.phrases .categories {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.phrases .categories button {
+    padding: 5px 10px;
+    background-color: #737475;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.phrases .categories button:hover {
+    background-color: #75787a;
+}
+
+.phrases ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.phrases ul li {
+    padding: 5px 0;
+}
