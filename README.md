@@ -12,7 +12,7 @@ Features:
 AI-Powered Translation – Uses advanced Neural Machine Translation (NMT) models for context-aware translations.
 Cultural & Linguistic Accuracy – Goes beyond word-to-word replacement, understanding grammar, idioms, and cultural nuances.
 Optimized for Indian Languages – Supports multiple regional languages.
-Efficient Processing – Translates sentences at an average speed of 0.8 seconds per sentence.
+Efficient Processing – Translates sentences at an average speed of less than 10 seconds per sentence.
 How It Works:
 Preprocessing: The input text is cleaned, tokenized, and prepared for translation.
 Translation Engine: Our AI model translates the text while preserving its meaning and context.
